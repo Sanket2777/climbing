@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Menu, X, ChevronDown } from "lucide-react"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 
-export function Navigation() {
+function navbar1() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -156,3 +156,4 @@ export function Navigation() {
     </nav>
   )
 }
+export default   navbar1

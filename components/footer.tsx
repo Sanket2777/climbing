@@ -12,9 +12,9 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">PC</span>
+                <span className="text-primary-foreground font-bold text-sm">CS</span>
               </div>
-              <span className="font-bold text-xl">Peak Climb</span>
+              <span className="font-bold text-xl">Climb Spark</span>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Experience the thrill of indoor rock climbing at our state-of-the-art facility. Perfect for beginners and
@@ -124,7 +124,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400 text-sm">© 2024 Peak Climb Gym. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">© 2024 Climb Spark Gym. All rights reserved.</p>
         </div>
       </div>
     </footer>
