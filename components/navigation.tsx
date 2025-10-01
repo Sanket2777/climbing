@@ -16,16 +16,16 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 z-50 relative">
-  <Image
-    src="Climbing.png"
-    alt="Peak Climb Logo"
-    width={150}
-    height={150}
-    className="rounded-md object-contain"
-    priority
-    style={{backgroundColor:"black" , marginRight:"200px"}}
-  />
-</Link>
+            <Image
+              src="CLIMBING.png"
+              alt="Peak Climb Logo"
+              width={150}
+              height={150}
+              className="rounded-md object-contain"
+              priority
+              style={{ backgroundColor: "black", marginRight: "200px" }}
+            />
+          </Link>
 
 
           {/* Desktop Navigation */}
