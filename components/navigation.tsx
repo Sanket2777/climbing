@@ -17,14 +17,15 @@ export function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 z-50 relative">
             <Image
-              src="/classes/c1.png"
-              alt="Peak Climb Logo"
-              width={150}
-              height={150}
-              className="rounded-md object-contain"
-              priority
-              style={{ backgroundColor: "black", marginRight: "200px" }}
-            />
+  src="/classes/c1.png"
+  alt="Peak Climb Logo"
+  width={120}
+  height={64}
+  className="h-16 w-auto object-contain"
+  priority
+  style={{ backgroundColor: "black", marginRight: "200px" }}
+/>
+
           </Link>
 
 

@@ -15,7 +15,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Phone, Mail, MapPin, Clock, MessageSquare } from "lucide-react"
 
 const contactInfo = {
-  phone: "(+91) 8447214194",
+  phone: "918447214194",
   whatsapp: "84472 14194", // WhatsApp number format
   email: "info@climbsparkgym.com",
   address: "123 Adventure Way, Kalewadi, Pune, Maharastra, India 411017 ",
@@ -101,7 +101,7 @@ export default function ContactPage() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-wrap justify-center gap-4">
               <Button asChild size="lg" className="bg-green-600 hover:bg-green-700">
-                <a href={`https://wa.me/${contactInfo.whatsapp}`} target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
                   <MessageSquare className="w-5 h-5 mr-2" />
                   WhatsApp
                 </a>

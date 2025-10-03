@@ -80,32 +80,30 @@ export function HeroSlider() {
   return (
     <section className="relative h-[70vh] min-h-[500px] overflow-hidden">
       {/* Slides */}
-      {slides.map((slide, index) => (
-        <div
-          key={slide.id}
-          className={`absolute inset-0 transition-opacity duration-1000 ${
-            index === currentSlide ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <div
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${slide.image})` }}
-          />
-          {/* Dark overlay for text readability */}
-          <div className="absolute inset-0 bg-black/40" />
+     {slides.map((slide, index) => (
+  <div
+    key={`${slide.id}-${index}`} // unique key
+    className={`absolute inset-0 transition-opacity duration-1000 ${
+      index === currentSlide ? "opacity-100" : "opacity-0"
+    }`}
+  >
+    <div
+      className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(${slide.image})` }}
+    />
+    <div className="absolute inset-0 bg-black/40" />
+    <div className="relative z-10 flex items-center justify-center h-full">
+      <div className="text-center text-white max-w-4xl mx-auto px-4">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 text-balance">{slide.title}</h1>
+        <p className="text-xl md:text-2xl mb-8 text-balance opacity-90">{slide.subtitle}</p>
+        <Button asChild size="lg" className="text-lg px-8 py-3">
+          <Link href="/contact">{slide.cta}</Link>
+        </Button>
+      </div>
+    </div>
+  </div>
+))}
 
-          {/* Content */}
-          <div className="relative z-10 flex items-center justify-center h-full">
-            <div className="text-center text-white max-w-4xl mx-auto px-4">
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 text-balance">{slide.title}</h1>
-              <p className="text-xl md:text-2xl mb-8 text-balance opacity-90">{slide.subtitle}</p>
-              <Button asChild size="lg" className="text-lg px-8 py-3">
-                <Link href="/contact">{slide.cta}</Link>
-              </Button>
-            </div>
-          </div>
-        </div>
-      ))}
 
       {/* Navigation Arrows */}
       <button
