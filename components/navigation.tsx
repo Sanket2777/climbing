@@ -17,15 +17,15 @@ export function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 z-50 relative">
             <Image
-              src="Climbing.png"
-              alt="climb spark"
+              src="/Climbing.png"
+              alt="Peak Climb Logo"
               width={150}
               height={150}
               className="rounded-md object-contain"
               priority
               style={{ backgroundColor: "black", marginRight: "200px" }}
             />
-          </Link> 
+          </Link>
 
 
           {/* Desktop Navigation */}
@@ -139,8 +139,8 @@ export function Navigation() {
             <Link href="/gallery" className="block py-2 text-foreground hover:text-primary transition-colors">
               Gallery
             </Link>
-            <Link href="/blog" className="block py-2 text-foreground hover:text-primary transition-colors">
-              Blog
+            <Link href="/videos" className="block py-2 text-foreground hover:text-primary transition-colors">
+              videos
             </Link>
             <Link href="/contact" className="block py-2 text-foreground hover:text-primary transition-colors">
               Contact
