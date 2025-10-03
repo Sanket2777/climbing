@@ -109,7 +109,7 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-2 text-sm text-gray-300">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>climbpark123clubgmail.com</span>
+                <span>info@climbsparkgym.com</span>
               </div>
             </div>
 
