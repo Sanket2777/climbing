@@ -17,7 +17,7 @@ export function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 z-50 relative">
             <Image
-              src="public/Climbing.png"
+              src="public/climbing.png"
               alt="Peak Climb Logo"
               width={150}
               height={150}
