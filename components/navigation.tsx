@@ -78,6 +78,9 @@ export function Navigation() {
             <Link href="/contact" className="text-foreground hover:text-primary transition-colors">
               Contact
             </Link>
+             <Link href="/rules" className="text-foreground hover:text-primary transition-colors">
+               Rules
+              </Link>
 
             <Button asChild>
               <Link href="/contact">Book Now</Link>
@@ -146,6 +149,9 @@ export function Navigation() {
             <Link href="/contact" className="block py-2 text-foreground hover:text-primary transition-colors">
               Contact
             </Link>
+               <Link href="/rules" className="text-foreground hover:text-primary transition-colors">
+               Rules
+              </Link>
             <div className="pt-2">
               <Button asChild className="w-full">
                 <Link href="/contact">Book Now</Link>
