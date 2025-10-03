@@ -13,7 +13,7 @@ const academyTracks = [
     level: "Intermediate to Advanced",
     duration: "12 weeks",
     schedule: "3x per week",
-    price: "$299/month",
+    price: " ₹15999/month",
     description:
       "Intensive training program for climbers preparing for local and regional competitions. Focus on technique, strength, and mental preparation.",
     includes: [
@@ -31,7 +31,7 @@ const academyTracks = [
     level: "Advanced Beginner to Intermediate",
     duration: "8 weeks",
     schedule: "2x per week",
-    price: "$199/month",
+    price: "₹12999/month",
     description:
       "Comprehensive skill development program focusing on advanced climbing techniques and movement efficiency.",
     includes: [
@@ -49,7 +49,7 @@ const academyTracks = [
     level: "Intermediate",
     duration: "10 weeks",
     schedule: "2x per week + outdoor sessions",
-    price: "$249/month",
+    price: "₹14599/month",
     description:
       "Bridge the gap between indoor and outdoor climbing with specialized training and guided outdoor experiences.",
     includes: [
@@ -66,21 +66,21 @@ const academyTracks = [
 
 const coachingStaff = [
   {
-    name: "Alex Rodriguez",
+    name: "Anant",
     title: "Head Coach",
     credentials: "USAC Level 2, 15+ years experience",
     specialties: ["Competition coaching", "Advanced technique", "Mental performance"],
     bio: "Former national team member with extensive competition and coaching experience.",
   },
   {
-    name: "Jamie Chen",
+    name: "Yash",
     title: "Technique Specialist",
     credentials: "AMGA Certified, Movement specialist",
     specialties: ["Movement efficiency", "Injury prevention", "Flexibility training"],
     bio: "Expert in biomechanics and movement optimization for climbing performance.",
   },
   {
-    name: "Morgan Taylor",
+    name: "Vijay",
     title: "Outdoor Program Director",
     credentials: "AMGA Rock Guide, Wilderness First Aid",
     specialties: ["Outdoor climbing", "Risk management", "Route planning"],
@@ -103,13 +103,13 @@ export default function AcademyPage() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="flex items-center justify-center mb-6">
               <Trophy className="w-12 h-12 text-primary mr-4" />
-              <h1 className="text-4xl md:text-5xl font-bold text-foreground">Peak Climb Academy</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-foreground">climb_spark Academy</h1>
             </div>
             <p className="text-xl text-muted-foreground leading-relaxed">
               Elite training programs for serious climbers looking to reach their full potential. Personalized coaching,
               structured progression, and comprehensive skill development.
             </p>
-          </div>
+          </div> 
         </section>
 
         {/* Academy Tracks */}

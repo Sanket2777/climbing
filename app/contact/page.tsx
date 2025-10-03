@@ -15,10 +15,10 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Phone, Mail, MapPin, Clock, MessageSquare } from "lucide-react"
 
 const contactInfo = {
-  phone: "(555) 123-CLIMB",
-  whatsapp: "15551234567", // WhatsApp number format
-  email: "info@peakclimbgym.com",
-  address: "123 Adventure Way, Mountain View, CA 94041",
+  phone: "(+91) 8447214194",
+  whatsapp: "84472 14194", // WhatsApp number format
+  email: "info@climbsparkgym.com",
+  address: "123 Adventure Way, Kalewadi, Pune, Maharastra, India 411017 ",
   hours: {
     weekdays: "6:00 AM - 10:00 PM",
     saturday: "8:00 AM - 8:00 PM",
@@ -327,15 +327,13 @@ export default function ContactPage() {
                       <div>
                         <h4 className="font-medium mb-2">By Car:</h4>
                         <p className="text-muted-foreground">
-                          Take Highway 101 to the Middlefield Road exit. Head west for 2 miles, then turn right on
-                          Adventure Way. We're in the blue building on your left.
+                          Take Wakad Ravet BRT Road to the Kalewadi Road exit. Head west for 2 miles, then turn right on Adventure Way. We're in the blue building on your left.
                         </p>
                       </div>
                       <div>
                         <h4 className="font-medium mb-2">Public Transit:</h4>
                         <p className="text-muted-foreground">
-                          Take Caltrain to Mountain View station, then catch VTA Bus 22 to Middlefield & Adventure Way
-                          (5-minute walk from stop).
+                          Take Bus for Kalewadi, Ravet station, then catch VTA Bus 22 to Adventure Way (5-minute walk from stop).
                         </p>
                       </div>
                       <div>
@@ -351,7 +349,7 @@ export default function ContactPage() {
 
               <div className="aspect-video rounded-lg overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.639!2d-122.0838511!3d37.3860517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDIzJzA5LjgiTiAxMjLCsDA1JzAxLjkiVw!5e0!3m2!1sen!2sus!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1710.8284757739457!2d73.79025842440177!3d18.616640204163552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9aa0f5fb893%3A0x32b907b85dfeade6!2sKalewadi%20Main!5e1!3m2!1sen!2sin!4v1759472139049!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

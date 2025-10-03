@@ -26,7 +26,7 @@ export function Footer() {
                   <Facebook className="w-5 h-5" />
                 </Button>
               </Link>
-              <Link href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.instagram.com/climb_spark_bouldering_gym" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="sm" className="text-white hover:text-primary">
                   <Instagram className="w-5 h-5" />
                 </Button>
@@ -43,6 +43,9 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="font-semibold text-lg">Quick Links</h3>
             <div className="space-y-2">
+               <Link href="/" className="block text-gray-300 hover:text-primary transition-colors text-sm">
+              Home
+            </Link>
               <Link href="/about" className="block text-gray-300 hover:text-primary transition-colors text-sm">
                 About Us
               </Link>

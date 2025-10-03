@@ -67,7 +67,7 @@ export default function FirstTimePage() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">First-Time Visitors</h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              Welcome to Peak Climb Gym! We're excited to help you start your climbing journey. Here's everything you
+              Welcome to climb_spark Gym! We're excited to help you start your climbing journey. Here's everything you
               need to know for your first visit.
             </p>
             <Button asChild size="lg">

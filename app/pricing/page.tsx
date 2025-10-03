@@ -8,19 +8,19 @@ import Link from "next/link"
 const dayPasses = [
   {
     title: "Adult Day Pass",
-    price: "$25",
+    price: " ₹2500.00",
     description: "Full day access to all climbing areas",
     features: ["All climbing walls", "Equipment rental included", "Valid for one day", "Safety briefing included"],
   },
   {
     title: "Student Day Pass",
-    price: "$20",
+    price: " ₹1800.00",
     description: "Discounted rate for students with valid ID",
     features: ["All climbing walls", "Equipment rental included", "Valid for one day", "Must show student ID"],
   },
   {
     title: "Youth Day Pass",
-    price: "$18",
+    price: " ₹1500.00",
     description: "For climbers under 18 years old",
     features: ["All climbing walls", "Equipment rental included", "Valid for one day", "Ages 5-17"],
   },
@@ -29,7 +29,7 @@ const dayPasses = [
 const memberships = [
   {
     title: "Basic Membership",
-    price: "$89",
+    price: "₹7999",
     period: "/month",
     description: "Perfect for regular climbers",
     features: [
@@ -43,7 +43,7 @@ const memberships = [
   },
   {
     title: "Premium Membership",
-    price: "$129",
+    price: " ₹14999",
     period: "/month",
     description: "Best value for serious climbers",
     features: [
@@ -58,7 +58,7 @@ const memberships = [
   },
   {
     title: "Family Membership",
-    price: "$199",
+    price: " ₹29999",
     period: "/month",
     description: "Great for families with 2+ climbers",
     features: [
@@ -76,7 +76,7 @@ const memberships = [
 const groupPackages = [
   {
     title: "Birthday Party Package",
-    price: "$299",
+    price: " ₹25999",
     description: "Perfect for birthday celebrations",
     features: [
       "2-hour private climbing session",
@@ -89,7 +89,7 @@ const groupPackages = [
   },
   {
     title: "Corporate Team Building",
-    price: "$49",
+    price: " ₹4599",
     description: "Per person (minimum 8 people)",
     features: [
       "3-hour team building session",
@@ -102,7 +102,7 @@ const groupPackages = [
   },
   {
     title: "School Group Program",
-    price: "$15",
+    price: " ₹2000",
     description: "Per student (minimum 15 students)",
     features: [
       "Educational climbing session",

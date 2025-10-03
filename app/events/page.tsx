@@ -15,7 +15,7 @@ const upcomingEvents = [
     location: "Main Bouldering Area",
     category: "Competition",
     difficulty: "All Levels",
-    price: "$25",
+    price: " ₹3999.00",
     spots: "15 spots left",
     description:
       "Join our monthly bouldsering competition! Categories for all skill levels with prizes for top performers.",
@@ -30,7 +30,7 @@ const upcomingEvents = [
     location: "Red Rock Canyon, Nevada",
     category: "Outdoor",
     difficulty: "Intermediate+",
-    price: "$150",
+    price: "₹5500.00",
     spots: "3 spots left",
     description:
       "Guided outdoor climbing adventure to the world-famous Red Rock Canyon. Transportation and gear included.",
@@ -45,7 +45,7 @@ const upcomingEvents = [
     location: "Kids Climbing Area",
     category: "Kids",
     difficulty: "Beginner",
-    price: "$200 (up to 8 kids)",
+    price: "₹8999.00 (up to 8 kids)",
     spots: "Available",
     description:
       "Make your child's birthday unforgettable with a climbing party! Includes instruction, games, and party space.",
@@ -54,7 +54,7 @@ const upcomingEvents = [
   },
   {
     id: 4,
-    title: "Women's Climbing Night",
+    title: "Women's Climbing Day",
     date: "2024-02-20",
     time: "7:00 PM - 9:00 PM",
     location: "Entire Facility",
@@ -74,7 +74,7 @@ const upcomingEvents = [
     location: "Training Area",
     category: "Workshop",
     difficulty: "Advanced",
-    price: "$75",
+    price: "₹6500.00",
     spots: "8 spots left",
     description:
       "Intensive workshop focusing on advanced climbing techniques, movement efficiency, and problem-solving.",

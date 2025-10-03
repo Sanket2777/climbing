@@ -5,28 +5,28 @@ import { Award, Heart, Users, Target } from "lucide-react"
 
 const teamMembers = [
   {
-    name: "Sarah Johnson",
+    name: "Tarun",
     role: "Head Instructor & Founder",
     bio: "With over 15 years of climbing experience and certifications from multiple climbing organizations, Sarah founded Peak Climb to share her passion for the sport.",
-    image: "/professional-female-climbing-instructor.jpg",
+    image: "/male-climbing-safety-coordinator.jpg",
   },
   {
-    name: "Mike Chen",
+    name: "Sanket ",
     role: "Lead Route Setter",
-    bio: "Mike brings creativity and technical expertise to our climbing routes. He's competed nationally and loves designing challenges for all skill levels.",
+    bio: "sanket brings creativity and technical expertise to our climbing routes. He's competed nationally and loves designing challenges for all skill levels.",
     image: "/male-climbing-route-setter.jpg",
   },
   {
-    name: "Emma Rodriguez",
+    name: "Sudha",
     role: "Youth Program Director",
-    bio: "Emma specializes in youth climbing programs and has a background in child development. She makes climbing fun and safe for our youngest adventurers.",
+    bio: "Sudha specializes in youth climbing programs and has a background in child development. She makes climbing fun and safe for our youngest adventurers.",
     image: "/female-youth-climbing-instructor.jpg",
   },
   {
-    name: "Alex Thompson",
+    name: "Neha",
     role: "Safety Coordinator",
-    bio: "Alex ensures all our equipment and procedures meet the highest safety standards. He's a certified climbing instructor with wilderness first aid training.",
-    image: "/male-climbing-safety-coordinator.jpg",
+    bio: "Neha ensures all our equipment and procedures meet the highest safety standards. He's a certified climbing instructor with wilderness first aid training.",
+    image: "/professional-female-climbing-instructor.jpg",
   },
 ]
 
@@ -65,9 +65,9 @@ export default function AboutPage() {
         {/* Hero Section */}
         <section className="py-20 bg-muted/30">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">About Peak Climb Gym</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">About climb_spark Gym</h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Founded in 2018, Peak Climb Gym has been the premier indoor climbing destination in our community. We're
+              Founded in 2018, climb_spark  Gym has been the premier indoor climbing destination in our community. We're
               passionate about sharing the joy, challenge, and community of climbing with everyone who walks through our
               doors.
             </p>
@@ -82,8 +82,8 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-bold text-foreground mb-6">Our Story</h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Peak Climb Gym was born from a simple idea: make the incredible sport of rock climbing accessible to
-                    everyone in our community. Our founder, Sarah Johnson, started climbing as a teenager and fell in
+                    climb_spark Gym was born from a simple idea: make the incredible sport of rock climbing accessible to
+                    everyone in our community. Our founder, Tarun, started climbing as a teenager and fell in
                     love with the physical and mental challenges the sport provides.
                   </p>
                   <p>
@@ -102,7 +102,7 @@ export default function AboutPage() {
               <div className="relative">
                 <img
                   src="/modern-climbing-gym-interior-with-colorful-holds.jpg"
-                  alt="Peak Climb Gym interior"
+                  alt="climb_spark Gym interior"
                   className="rounded-lg shadow-lg w-full"
                 />
               </div>
@@ -116,7 +116,7 @@ export default function AboutPage() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-foreground mb-4">Our Values</h2>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                These core values guide everything we do at Peak Climb Gym
+                These core values guide everything we do at climb_spark Gym
               </p>
             </div>
 
