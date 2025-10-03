@@ -7,9 +7,9 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "climb_spark Gym - Indoor Rock Climbing & Bouldering",
+  title: "Climb_Spark Gym - Indoor Rock Climbing & Bouldering",
   description:
-    "Experience the thrill of indoor rock climbing at climb_spark Gym. Offering classes for all skill levels, birthday parties, and team building events.",
+    "Experience the thrill of indoor rock climbing at Climb_Spark Gym. Offering classes for all skill levels, birthday parties, and team building events.",
   generator: "Tarun",
 }
 
