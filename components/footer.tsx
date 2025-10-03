@@ -55,9 +55,7 @@ export function Footer() {
               <Link href="/pricing" className="block text-gray-300 hover:text-primary transition-colors text-sm">
                 Pricing
               </Link>
-              <Link href="/rules" className="block text-gray-300 hover:text-primary transition-colors text-sm">
-                Facility Rules
-              </Link>
+              
               <Link href="/terms" className="block text-gray-300 hover:text-primary transition-colors text-sm">
                 Terms & Conditions
               </Link>
