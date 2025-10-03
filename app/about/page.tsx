@@ -5,25 +5,25 @@ import { Award, Heart, Users, Target } from "lucide-react"
 
 const teamMembers = [
   {
-    name: "Tarun",
+    name: "Tarun Raghav",
     role: "Head Instructor & Founder",
-    bio: "With over 15 years of climbing experience and certifications from multiple climbing organizations, Sarah founded Peak Climb to share her passion for the sport.",
+    bio: "With over 15 years of climbing experience and certifications from multiple climbing organizations, Tarun Raghav founded Climb_Spark Gym to share her passion for the sport.",
     image: "/male-climbing-safety-coordinator.jpg",
   },
   {
-    name: "Sanket ",
+    name: "Vishal Mishra ",
     role: "Lead Route Setter",
-    bio: "sanket brings creativity and technical expertise to our climbing routes. He's competed nationally and loves designing challenges for all skill levels.",
+    bio: "Vishal brings creativity and technical expertise to our climbing routes. He's competed nationally and loves designing challenges for all skill levels.",
     image: "/male-climbing-route-setter.jpg",
   },
   {
-    name: "Sudha",
+    name: "Sudha Sharma",
     role: "Youth Program Director",
     bio: "Sudha specializes in youth climbing programs and has a background in child development. She makes climbing fun and safe for our youngest adventurers.",
     image: "/female-youth-climbing-instructor.jpg",
   },
   {
-    name: "Neha",
+    name: "Neha Mishra ",
     role: "Safety Coordinator",
     bio: "Neha ensures all our equipment and procedures meet the highest safety standards. He's a certified climbing instructor with wilderness first aid training.",
     image: "/professional-female-climbing-instructor.jpg",
